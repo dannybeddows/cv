@@ -218,6 +218,9 @@ header {
 
 @media screen and (max-width: 468px) {
     
+    body {
+        overflow: hidden;
+    }
 
     .column_left h1 {
         font-size: 1.5em;
