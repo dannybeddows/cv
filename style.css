@@ -219,7 +219,7 @@ header {
 @media screen and (max-width: 468px) {
     
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .column_left h1 {
