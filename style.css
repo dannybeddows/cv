@@ -308,8 +308,8 @@ header {
     align-items: center;}
 
 .main__image {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 80%;
+    max-height: 80%;
     border: 10px solid white;
 }
 
