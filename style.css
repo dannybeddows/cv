@@ -496,23 +496,23 @@ header {
 
     @media  screen and (max-width: 600px) {
         .services_desc h2 {
-            font-size: 3.5em;
+            font-size: 2.9em;
             word-wrap: break-word;
         }
 
         .services_desc2 h2 {
-            font-size: 3.5em;
+            font-size: 2.9em;
             word-wrap: break-word;
         }
 
         .services_desc p {
-            font-size: 1em;
+            font-size: 0.7em;
             text-align: center;
             max-width: fit-content;
         }
 
         .services_desc2 p {
-            font-size: 1em;
+            font-size: 0.7em;
             text-align: center;
             max-width: fit-content;
         }
