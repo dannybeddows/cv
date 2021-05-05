@@ -179,7 +179,7 @@ header {
     }
 
     .nav_links {
-        position: absolute;
+        position: relative;
         right: 0px;
         height: 8vh;
         top: 16vh;
@@ -190,7 +190,6 @@ header {
         width: 35%;
         transform:translateX(100%);
         transition: transform 0.5s ease-in;
-        overflow-x: hidden !important;
 
     } 
 
