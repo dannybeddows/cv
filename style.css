@@ -344,7 +344,6 @@ header {
 
 .services {
     background: #FBDEA5;
-    position: relative;
     padding: 60px 80px 100px 80px;
 }
 
@@ -508,13 +507,13 @@ header {
         .services_desc p {
             font-size: 1em;
             text-align: center;
-            max-width: fit-content;
+           
         }
 
         .services_desc2 p {
             font-size: 1em;
             text-align: center;
-            max-width: fit-content;
+            
         }
     }
 
@@ -533,13 +532,13 @@ header {
         .services_desc p {
             font-size: 0.8em;
             text-align: center;
-            max-width: fit-content;
+            
         }
 
         .services_desc2 p {
             font-size: 0.8em;
             text-align: center;
-            max-width: fit-content;
+            
         }
 
         html {
