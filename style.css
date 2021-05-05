@@ -218,6 +218,10 @@ header {
     .toggle .line3 {
             transform: rotate(45deg) translate(-5px,-6px);
     }
+    
+    .services {
+        padding: 0;
+    }
 }
 
 
@@ -239,6 +243,10 @@ header {
     .logo img {
         max-width: 80%;
         padding-left: 16px;
+    }
+    
+     .services {
+        padding: 0;
     }
    
 }
