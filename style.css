@@ -178,7 +178,7 @@ header {
         overflow-x: hidden;
     }
 
-    .nav_links {
+    /*.nav_links {
         position: absolute;
         right: 0px;
         height: 8vh;
@@ -191,7 +191,7 @@ header {
         transform:translateX(100%);
         transition: transform 0.5s ease-in;
 
-    }
+    } */
 
     .nav-links li {
         opacity: 0;
