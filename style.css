@@ -507,13 +507,13 @@ header {
         .services_desc p {
             font-size: 1em;
             text-align: center;
-           
+            max-width: fit-content;           
         }
 
         .services_desc2 p {
             font-size: 1em;
             text-align: center;
-            
+             max-width: fit-content;
         }
     }
 
