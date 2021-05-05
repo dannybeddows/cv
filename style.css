@@ -522,23 +522,25 @@ header {
         .services_desc h2 {
             font-size: 3em;
             word-wrap: break-word;
+            max-width: fit-content;
         }
 
         .services_desc2 h2 {
             font-size: 3em;
             word-wrap: break-word;
+            max-width: fit-content;
         }
 
         .services_desc p {
             font-size: 0.8em;
             text-align: center;
-            
+            max-width: fit-content;
         }
 
         .services_desc2 p {
             font-size: 0.8em;
             text-align: center;
-            
+            max-width: fit-content;
         }
 
         html {
