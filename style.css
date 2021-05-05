@@ -179,7 +179,7 @@ header {
     }
 
     .nav_links {
-        position: relative;
+        position: absolute;
         right: 0px;
         height: 8vh;
         top: 16vh;
