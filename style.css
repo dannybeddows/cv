@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+
 p {
     font-family: 'Poppins';
     font-size: 17px;
@@ -511,8 +516,35 @@ header {
             text-align: center;
             max-width: fit-content;
         }
+    }
 
-       
+    @media screen and (max-width: 468px) {
+
+        .services_desc h2 {
+            font-size: 3.5em;
+            word-wrap: break-word;
+        }
+
+        .services_desc2 h2 {
+            font-size: 3.5em;
+            word-wrap: break-word;
+        }
+
+        .services_desc p {
+            font-size: 1em;
+            text-align: center;
+            max-width: fit-content;
+        }
+
+        .services_desc2 p {
+            font-size: 1em;
+            text-align: center;
+            max-width: fit-content;
+        }
+
+        html {
+            overflow-x: hidden;
+        }
 
     }
 
