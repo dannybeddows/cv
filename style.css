@@ -9,7 +9,7 @@
 
 html, body{
     width:100%;
-    overflow-x:hidden;
+    overflow-x:hidden!important;
     }
 
 p {
@@ -338,15 +338,11 @@ header {
         grid-template-columns: 1fr;
         grid-template-rows: 200px;
     }
-}
-
-.services {
-    display: none;
-}    
+} 
 
 /* services section */
 
-/*.services {
+.services {
     background: #FBDEA5;
     padding: 60px 80px 100px 80px;
 }
@@ -551,7 +547,7 @@ header {
             overflow-x: hidden;
         }
 
-    }*/
+    }
 
 
 /* clients section */
