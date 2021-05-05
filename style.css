@@ -340,9 +340,13 @@ header {
     }
 }
 
+.services {
+    display: none;
+}    
+
 /* services section */
 
-.services {
+/*.services {
     background: #FBDEA5;
     padding: 60px 80px 100px 80px;
 }
@@ -547,7 +551,7 @@ header {
             overflow-x: hidden;
         }
 
-    }
+    }*/
 
 
 /* clients section */
