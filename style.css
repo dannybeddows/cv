@@ -279,8 +279,8 @@ header {
     }
 
     .main__image {
-        max-width: 90%;
-        max-height: 90%;
+        max-width: 70%;
+        max-height: auto;
     }
     .main_content {
         grid-template-columns: 1fr;
