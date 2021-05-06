@@ -474,7 +474,10 @@ header {
 
     @media screen and (max-width: 468px) {
 
-        
+        .services h2 {
+            font-size: 3rem;
+            text-align: center;
+        }
 
     }
 /* clients section */
