@@ -160,12 +160,6 @@ header {
 }
 
 
-@media screen and (max-width: 640px) {
-
-}
-
-
-
 @media screen and (max-width: 468px) {
 
     .column_left h1 {
@@ -491,10 +485,9 @@ header {
             max-width: fit-content;
         }
 
-        html {
-            overflow-x: hidden;
+        .servicelists {
+              padding: 20px;      
         }
-
     }
 
 
