@@ -272,10 +272,6 @@ header {
         font-size: 32px;
     }
 
-    .main__image {
-        max-width: 70%;
-        max-height: auto;
-    }
     .main_content {
         grid-template-columns: 1fr;
         grid-template-rows: 200px;
