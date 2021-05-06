@@ -179,49 +179,9 @@ header {
     }
 
     .nav_links {
-        position: absolute;
-        right: 0px;
-        height: 8vh;
-        top: 16vh;
-        background-color: transparent;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 35%;
-        transform:translateX(100%);
-        transition: transform 0.5s ease-in;
 
     } 
 
-    .nav-links li {
-        opacity: 0;
-    }
-
-    .burger {
-        display: block;
-        margin-right: 40px;
-        cursor: pointer;
-    }
-    
-    .nav_active {
-        transform: translateX(0%);
-    }
-
-    .toggle .line1 {
-            transform: rotate(-45deg) translate(-5px,6px);
-    }
-
-    .toggle .line2 {
-            opacity: 0;
-    }
-
-    .toggle .line3 {
-            transform: rotate(45deg) translate(-5px,-6px);
-    }
-    
-    .services {
-        padding: 0;
-    }
 }
 
 
