@@ -170,7 +170,7 @@ header {
 @media screen and (max-width: 640px) {
 
     .nav_links {
-        text-align: center;
+        text-align: right;
     }
 }
 
