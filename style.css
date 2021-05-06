@@ -715,4 +715,6 @@ header {
             font-size: 0.6em; 
         }
         
+    .footer_logo {
+        padding-left: 4px;
     }
