@@ -82,11 +82,6 @@ header {
     margin: 5px;
 }
 
-.burger {
-    display: none;
-}
-
-
 .hero_section {
     background: #0038FF;
     padding: 0 60px 60px 60px;
@@ -174,12 +169,8 @@ header {
 
 @media screen and (max-width: 640px) {
 
-    body {
-        overflow-x: hidden;
-    }
-
     .nav_links {
-
+        padding: 0px 20px;
     } 
 
 }
@@ -187,10 +178,6 @@ header {
 
 
 @media screen and (max-width: 468px) {
-    
-    body {
-        overflow-x: hidden;
-    }
 
     .column_left h1 {
         font-size: 1.5em;
@@ -205,9 +192,9 @@ header {
         padding-left: 16px;
     }
     
-     .services {
-        padding: 0;
-    }
+    .nav_links {
+        padding: 0px 20px;
+    } 
    
 }
 
