@@ -162,10 +162,6 @@ header {
 
 @media screen and (max-width: 640px) {
 
-    .nav_links {
-        padding: 0px 20px;
-    } 
-
 }
 
 
@@ -186,7 +182,9 @@ header {
     }
     
     .nav_links {
-        padding: 0px 20px;
+        padding: 0px 0px;
+        text-align: center;
+        font-size: 16px;
     } 
    
 }
