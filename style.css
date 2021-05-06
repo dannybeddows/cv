@@ -184,9 +184,10 @@ header {
     .nav_links {
         padding: 0px 0px;
         text-align: center;
-        font-size: 16px;
     } 
-   
+    
+    .nav_links li {
+        font-size: 16px;
 }
 
 /* About Section */
