@@ -75,13 +75,6 @@ header {
     color: #58DEFF;
 }
 
-.burger div {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px;
-}
-
 .hero_section {
     background: #0038FF;
     padding: 0 60px 60px 60px;
@@ -258,7 +251,7 @@ header {
     max-width: 70%;
     max-height: 70%;
     border: 10px solid white;
-    border-radius: 50%;
+    border-radius: 70%;
 }
 
 /* Media queries for about section */
