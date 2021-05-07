@@ -77,11 +77,6 @@ header {
     color: #58DEFF;
 }
 
-.burger {
-    display: none;
-}
-
-
 .hero_section {
     background: #0038FF;
     padding: 0 60px 60px 60px;
@@ -721,3 +716,56 @@ header {
     .footer_logo {
         padding-left: 4px;
     }
+    
+/* Modal Styles */
+    
+    
+button {
+    background-color: #47a386;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 25px;
+    font-size: 16px;
+
+}
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal {
+    background-color: #fff;
+    width: 700px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal h1 {
+    margin: 0;
+}
+
+.modal p {
+    font-size: 14px;
+    opacity: 0.7;
+}
