@@ -77,6 +77,17 @@ header {
     color: #58DEFF;
 }
 
+#nav_contact {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav_contact {
+    color: #58DEFF;
+    transition: all 0.3s ease 0s;
+]
+
 .hero_section {
     background: #0038FF;
     padding: 0 60px 60px 60px;
