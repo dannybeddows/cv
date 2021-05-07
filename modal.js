@@ -1,4 +1,4 @@
-const open = document.getElementsByTagName('button');
+const open = document.getElementsByClassName('button');
 const modal_container = document.getElementById('modal_container');
 const close = document.getElementById('close');
 
