@@ -14,7 +14,7 @@
         <nav>
             <div class="nav_links">
                 <li><a href="/seo-cv">resume</a></li>
-                <li><a href="#">contact</a></li>
+                <li id="open">contact</li>
             </div>
         </nav>
     </header>
@@ -184,5 +184,18 @@
             <a href="/"><img src="/assets/images/dblogo.png" alt="DB Logo" class="footer_logo"></a>
         </div>
     </div>
+    
+  <!-- Modal contact form -->
+  <div class="modal-container"
+       id="modal_container">
+    <div class="modal">
+            <h1>Let's Talk Today!</h1>
+            <p>You can contact me directly using the form below.</p>
+            <button id="close">
+                Close Me
+            </button>
+    </div>
+</div>
+<script src="modal.js"></script>
 </body>
 </html>
