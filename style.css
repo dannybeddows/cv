@@ -719,18 +719,7 @@ header {
     
 }
 /* Modal Styles */
-    
-    
-button {
-    background-color: #47a386;
-    color: #ffffff;
-    border-radius: 5px;
-    border: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 10px 25px;
-    font-size: 16px;
-
-}
+       
 
 .modal-container {
     background-color: rgba(0, 0, 0, 0.3);
