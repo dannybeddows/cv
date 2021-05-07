@@ -83,10 +83,10 @@ header {
     color: #fff;
 }
 
-#nav_contact {
+#nav_contact:hover {
     color: #58DEFF;
     transition: all 0.3s ease 0s;
-]
+}
 
 .hero_section {
     background: #0038FF;
