@@ -9717,13 +9717,13 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header .name {
-  font-size: 12px;
+  font-size: 1.3rem;
   letter-spacing: 0.175rem;
   font-weight: 900;
 }
 
 .resume-header .title {
-  font-size: 12px;
+  font-size: 1.4rem;
 }
 
 .resume-header a {
