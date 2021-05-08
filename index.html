@@ -190,8 +190,34 @@
   <div class="modal-container"
        id="modal_container">
     <div class="modal">
-            <h1>Let's Talk Today!</h1>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJfYF1UU9ulzmQekGIRLFSO_VkgHf2VdMPyfwVYcTJZ-qzXQ/viewform?embedded=true" width="640" height="852" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <div class="contact_container">
+<div class="contact_form">
+    <h1>Let's talk shop!</h1>
+    <form action="https://formspree.io/f/xdoyavqb"
+    method="POST">
+        <label class="name"><p>Name:</p>
+            <input type="text" id="name" required>
+        </label>
+
+        <label class="email"><p>Email:</p>
+            <input type="email" id="email" name="_replyto" required>
+        </label>
+
+        <label class="phone"><p>Phone:</p>
+            <input type="tel" id="phone" required>
+        </label>
+
+        <label message="message"><p>Message:</p>
+            <textarea name="message" id="message" rows="7" required></textarea>
+        </label>
+
+        <input type="hidden" name="_subject" value="Contact from DBeddows Portfolio" />
+
+        <input class="contact_button" type="submit" value="SEND">
+    </form>
+</div>
+</div>
+           
             <button id="close">
                 Close Me
             </button>
