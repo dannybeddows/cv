@@ -792,6 +792,7 @@ label p {
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
     text-align: left;
+    letter-spacing: 1px;
 }
 
 input, textarea {
