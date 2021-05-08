@@ -596,7 +596,7 @@ header {
     padding: 90px 60px;
 }
 
-.contact_container {
+.contact_me_container {
     
     display: flex;
     grid-template-columns: 2fr 1fr;
@@ -656,7 +656,7 @@ header {
 }
 
 @media  screen and (max-width: 768px) {
-    .contact_container  {
+    .contact_me_container  {
         display: grid;
         grid-template-columns: 1fr;
     }
