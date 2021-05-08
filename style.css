@@ -770,3 +770,52 @@ header {
     font-size: 14px;
     opacity: 0.7;
 }
+
+
+/* -- Contact form (inside modal) styles -- */
+
+.contact_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact_form {
+    width: 600px;
+    font-family: lato;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+label p {
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    display: block;
+    padding: 0.8em;
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid #ececec;
+    font-size: 1.2 rem;
+}
+
+.contact_button {
+    display: inline-block;
+    width: 30%;
+    margin-top: 1.6em;
+    margin-left: auto;
+    border: none;
+    
+    background-color: #40D2F7;
+    font-size: 1rem;
+}
