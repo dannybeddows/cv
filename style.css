@@ -810,14 +810,13 @@ input, textarea {
     margin-top: 1.6em;
     margin-left: auto;
     border: none;
-    
+    background-color: #40D2F7;
+    font-size: 1rem;
+}
+
 .contact_button:hover {
     color: white;
     cursor: pointer;
-}
-    
-    background-color: #40D2F7;
-    font-size: 1rem;
 }
 
 #close {
