@@ -814,3 +814,10 @@ input, textarea {
     background-color: #40D2F7;
     font-size: 1rem;
 }
+
+#close {
+    border: none;
+    background: #fff;
+    display: inline-block;
+    float: right;
+}
