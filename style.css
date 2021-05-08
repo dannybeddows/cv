@@ -813,6 +813,7 @@ input, textarea {
     
 .contact_button:hover {
     color: white;
+    cursor: pointer;
 }
     
     background-color: #40D2F7;
