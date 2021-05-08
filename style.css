@@ -820,4 +820,6 @@ input, textarea {
     background: #fff;
     display: inline-block;
     float: right;
+    cursor: pointer;
+    color: #333333
 }
