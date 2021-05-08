@@ -762,16 +762,6 @@ header {
     text-align: center;
 }
 
-.modal h1 {
-    margin: 0;
-}
-
-.modal p {
-    font-size: 14px;
-    opacity: 0.7;
-}
-
-
 /* -- Contact form (inside modal) styles -- */
 
 .contact_container {
