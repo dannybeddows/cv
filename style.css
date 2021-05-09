@@ -43,9 +43,6 @@ ul {
 
 header {
     background: #0038FF;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     padding: 60px 4% 0px 4%;
 }
 
