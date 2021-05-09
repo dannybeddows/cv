@@ -82,8 +82,8 @@ header {
 
 .toggle_button {
     position: absolute;
-    top: 0.75rem;
-    right: 1rem;
+    top: 4.7rem;
+    right: 1.6rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
