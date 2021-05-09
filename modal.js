@@ -11,3 +11,13 @@ for (var i=0; i < open.length; i++) {
 close.addEventListener('click', () => {
     modal_container.classList.remove('show');
 })};
+
+
+// JS for the toggle menu 
+
+const toggleButton = document.getElementsByClassName('toggle_button')[0]
+const navbarLinks = document.getElementsByClassName('nav_links')[0]
+
+toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+});
