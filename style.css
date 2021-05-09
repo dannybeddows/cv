@@ -51,41 +51,54 @@ header {
 
 .logo {
     cursor: pointer;
-    margin-right: auto;
 }
 
-.nav_links {
-    list-style: none;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .nav_links li {
-    display: inline-block;
-    padding: 0px 30px;
-    text-decoration: none;
-    text-transform: uppercase;
     font-size: 1.4em;
     letter-spacing: 0.05rem;
+    list-style: none;
 }
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
+    padding: 0px 30px;
 }
 
 .nav_links li a:hover {
     color: #58DEFF;
 }
 
-#nav_contact {
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: #fff;
+.toggle_button {
+    position: absolute;
+    top: 0.75 rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
 }
 
-#nav_contact:hover {
-    color: #58DEFF;
-    transition: all 0.3s ease 0s;
+.toggle_button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .hero_section {
