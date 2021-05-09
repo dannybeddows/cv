@@ -82,7 +82,7 @@ header {
 
 .toggle_button {
     position: absolute;
-    top: 0.75 rem;
+    top: 0.75rem;
     right: 1rem;
     display: none;
     flex-direction: column;
