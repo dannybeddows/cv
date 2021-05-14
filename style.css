@@ -529,7 +529,12 @@ header {
             font-size: 3rem;
             text-align: center;
         }
-
+        
+        .services_middle p {
+            font-size: 0.8rem;
+            text-align: center;
+            max-width: fit-content;
+        }
     }
 /* clients section */
 
