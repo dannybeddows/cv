@@ -530,7 +530,7 @@ header {
             text-align: center;
         }
         
-        .services_middle p {
+        .services_middle p,  .services_left p, .services_right p {
             font-size: 0.8rem;
             text-align: center;
             max-width: fit-content;
