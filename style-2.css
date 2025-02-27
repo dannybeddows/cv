@@ -284,3 +284,27 @@
   }
 }
 
+/* green ticks */
+
+.green-tick-list {
+            list-style-type: none; /* Remove default bullets */
+            padding-left: 0; /* Remove default padding */
+        }
+
+        .green-tick-list li {
+            position: relative;
+            padding-left: 30px; /* Space for the tick */
+            margin-bottom: 10px; /* Space between list items */
+            font-size: 16px; /* Adjust font size as needed */
+            line-height: 1.5; /* Adjust line height as needed */
+        }
+
+        .green-tick-list li::before {
+            content: "✔"; /* Unicode for tick symbol */
+            color: green; /* Green color for the tick */
+            font-size: 18px; /* Adjust tick size */
+            position: absolute;
+            left: 0; /* Position the tick */
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%); /* Center vertically */
+        }
