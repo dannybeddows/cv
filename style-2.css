@@ -108,7 +108,7 @@
 /* CTA Banner Styling */
 .am-cta {
   background-color: #e5e5e5!important;
-  margin-bottom: 40px;
+  padding: 60px;
 }
 
 .am-content-inner {
