@@ -308,3 +308,12 @@
             top: 50%; /* Center vertically */
             transform: translateY(-50%); /* Center vertically */
         }
+
+/* image border */
+
+img {
+    border: 1px solid #f0f0f0; /* Very light grey border */
+    border-radius: 4px; /* Optional: Adds rounded corners */
+    padding: 5px; /* Optional: Adds space between the image and the border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+}
