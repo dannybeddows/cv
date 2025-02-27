@@ -1,1 +1,285 @@
-css
+/* tech page CSS styles bootstrap 5 */
+
+/* General Text Styling for .node-175 */
+.node-175 p {
+  font-size: 1rem; /* Default font size for larger screens */
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .node-175 p {
+    font-size: 14px; /* Slightly smaller font size on mobile */
+    line-height: 1.4; /* Adjust line height for readability */
+  }
+}
+
+/* Text Color and Text Shadow */
+.text-shadow {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* X, Y, blur radius, color */
+  -webkit-text-stroke: 1px #27324C; /* 1px black border */
+  -webkit-text-fill-color: #e7e4d5; /* Keeps text color inside */
+}
+
+/* Content Builder Label Removal */
+.div.field__label[title="Content Builder"] {
+  display: none;
+}
+
+/* AM Hero Banner */
+.jeffz {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+/* Button Theme Styling */
+.btn-theme.am-btn {
+  color: #333!important;
+  background-color: #e5e5e5!important;
+}
+
+.am-btn:hover {
+  background-color: #d1d1d1!important;
+}
+
+/* H2 Strapline Styles */
+.am-strap {
+  font-size: 1.7vw;
+  margin: auto;
+  letter-spacing: -0.03rem;
+  color: #333;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.3;
+  padding-top: 80px;
+  padding-bottom:80px;
+}
+
+@media (min-width: 1980px) {
+  .am-strap {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1979px) and (min-width: 1200px) {
+  .am-strap {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .am-strap {
+    font-size: 2vw;
+      padding-top: 40px;
+  padding-bottom:40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .am-strap {
+    font-size: 4vw;
+      padding-top: 40px;
+  padding-bottom:40px;
+  }
+}
+
+/* Title Styles */
+.title.am-title {
+  font-weight: 500!important;
+  letter-spacing: -0.05rem!important;
+  color: #333;
+  font-size: 26px!important;
+  margin: 0;
+}
+
+/* Horizontal Rule Styling */
+.am-hr {
+  border: 0;
+  border-top: 2px solid #ed3295;
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+/* CTA Banner Styling */
+.am-cta {
+  background-color: #e5e5e5!important;
+  margin-bottom: 40px;
+}
+
+.am-content-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.am-content {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.am-content img {
+  max-width: 70%;
+  height: auto;
+}
+
+.am-button-action {
+  flex: 1;
+  min-width: 250px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.am-btn-2 {
+  background-color: #A41965;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.am-btn-2:hover {
+  background-color: #C02278!important;
+}
+
+/* Mobile Adjustments for CTA Banner */
+@media (max-width: 768px) {
+  .am-content-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title.am-title {
+    font-size: 22px!important;
+  }
+
+  .am-button-action {
+    justify-content: center;
+  }
+}
+
+/* Hero Section */
+.am-hero, .aa-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.am-hero {
+  background-color: #a0c5cd;
+}
+
+.aa-hero {
+  background-color: #CD8EA3;
+}
+
+.am-hero-image, .aa-hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.am-h1, .aa-h1 {
+  position: absolute;
+  margin: 0;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: bold;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #D4D2C7;
+  -webkit-text-stroke: 1.4px #27324C;
+  -webkit-text-fill-color: #f7f2d9;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 1px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.aa-h1 {
+  -webkit-text-fill-color: #e8e8e8;
+}
+
+/* Responsive Font Sizes for Hero Headings */
+@media (min-width: 1981px) {
+  .am-h1, .aa-h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .am-h1, .aa-h1 {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .am-h1, .aa-h1 {
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .am-h1, .aa-h1 {
+    font-size: 7vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .am-h1, .aa-h1 {
+    font-size: 10vw;
+  }
+}
+
+/* Square Image Styles */
+.am-sqr-img-l, .am-sqr-img-r {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Row Layout Adjustments */
+.am-inner {
+  padding-bottom: 0px!important;
+}
+
+.am-color {
+  background-color: #BDECF7;
+}
+
+.am-row {
+  margin-bottom: 40px;
+}
+
+/* Right Image Column Layout */
+.right-img-column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.right-img-column a {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .right-img-column {
+    justify-content: center;
+  }
+
+  .right-img-column a {
+    justify-content: center;
+  }
+}
+
