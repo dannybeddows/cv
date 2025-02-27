@@ -311,7 +311,7 @@
 
 /* image border */
 
-img {
+.am-sqr-img-l{
     border: 1px solid #f0f0f0; /* Very light grey border */
     border-radius: 4px; /* Optional: Adds rounded corners */
     padding: 5px; /* Optional: Adds space between the image and the border */
